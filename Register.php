@@ -10,6 +10,7 @@
 </head>
 <body>
 
+
         <div class="container">
            
            <h1>Create account</h1>
@@ -44,12 +45,8 @@
   $email = isset($_POST['email']) ? $_POST['email'] : '';
   $password = isset($_POST['Password']) ? $_POST['Password'] : '';
    $errors = array();
-          $conn = new mysqli('localhost', 'root', '', 'user');
-
           
-
-
-
+           $conn = new mysqli('localhost', 'root', '', 'user');
            if($conn->connect_error){
             die('Connection Failed : ' .$conn->connect_error);
           }else{
