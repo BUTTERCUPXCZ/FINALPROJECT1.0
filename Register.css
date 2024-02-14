@@ -5,11 +5,11 @@ body{
 }
 .container{
     position: absolute;
-    top: 18%;
+    top: 10%;
     left: 40%;
     background: white;
     width: 20%;
-    height: 60%;
+    height: 80%;
     border-radius: 30px;
     font-family: sans-serif;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -19,42 +19,44 @@ h1{
 }
 .Names input{
     width: 60%;
-    padding: 12px;
+    padding: 15px;
     height: 25px;
     margin-top: 10px;
-    margin-left:65px;
+    margin-left:55px;
     margin-bottom: 10px;
     background: #e4e4e4;
     border: none;
     border-radius: 20px;
+    position: relative;
 }
 .Email input{
     width: 60%;
-    padding: 12px;
+    width: 60%;
+    padding: 15px;
     height: 25px;
-    margin-left:65px;
+    margin-top: 10px;
+    margin-left:55px;
     margin-bottom: 10px;
     background: #e4e4e4;
-    border-radius: 20px;
     border: none;
-    margin-top: 10px;
+    border-radius: 20px;
 }
 button{
     margin-top: 10px;
-    margin-left: 90px;
+    margin-left: 80px;
     width: 50%;
     height: 40px;
     border-radius: 30px;
     border: none;
     background: rgb(50, 50, 228);
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
    
 
 }
 .Email label{
-     margin-left: 70px;
- 
+     margin-left: 50px;
+    margin-top: 50px;
 
 
 }
