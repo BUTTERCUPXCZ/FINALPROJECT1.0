@@ -4,14 +4,12 @@ $userName = "root";
 $password = "";
 $dbname = "user";
 
-$con = new mysqli($servenName, $userName, $password, $dbname);
+$con = new mysqli($serverName, $userName, $password, $dbname);
 
 if(mysqli_connect_errno()){
-           echo "Connection Error";
-           exit();
-}else{
-echo "Connection Success!!";
-}
-
+    echo "Connection Error";
+    exit();
+} 
+$con->close();
 
 ?>
